@@ -1,1 +1,1 @@
-Welcome to the KickSat wiki!
+# Welcome to the KickSat wiki!

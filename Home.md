@@ -1,3 +1,3 @@
-## Welcome to the KickSat wiki!
+## Welcome to the KickSat Wiki!
 
-This is where you will be able to find information on how to program and debug a Sprite development board, as well as code examples and other technical information.  Click the "Pages" tab above to navigate to different parts of the wiki.
+### Click the "Pages" tab above to navigate to different parts of the wiki.

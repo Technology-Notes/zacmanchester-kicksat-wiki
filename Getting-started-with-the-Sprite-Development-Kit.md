@@ -4,7 +4,7 @@ To program the Sprite we'll be using a piece of software called [Energia](http:/
 
 ## Installing Software
 
-I've compiled a modified version of Energia for the Sprite. There are binaries and installation instructions below for Windows and Mac. Installing on Linux is also possible, but you'll have to compile it from the [source code](https://github.com/zacinaction/Energia/tree/Branch_CC430_RF_support) yourself.
+We'll be using a version of Energia specially modified for the Sprite. There are binaries and installation instructions below for Windows and Mac. Installing on Linux is also possible, but you'll have to compile it from the [source code](https://github.com/zacinaction/Energia/tree/Branch_CC430_RF_support) yourself.
 
 ### Windows
 1. Download the LaunchPad (programmer) drivers for Windows: [LaunchPad CDC drivers zip file for Windows 32 and 64 bit](https://github.com/energia/Energia/raw/gh-pages/files/EZ430-UART.zip)

@@ -36,6 +36,7 @@ There are several [tutorials](http://elabz.com/msp430-in-64-bit-ubuntu-12-04-lin
 
 ## Your First Sprite Program
 Once everything is connected and Energia is running it's time to write some code. We'll go through a basic example that will blink the LED on the Sprite.
+
 1. Make sure the correct microcontroller is selected. Click Tools->Board and make sure "Launchpad w/ cc430f5137" is selected.
 2. Click open, then under the "Basics" menu, select "Blink". We'll need to modify this code slightly to work on the Sprite.
 3. Looking at the source code, you'll notice two functions - "setup" and "loop". This is how all Arduino/Energia programs are structured. The setup code will run once when the microcontroller starts up, and then the loop code will run repeatedly thereafter. This code is configured to blink an LED attached to pin 14, but on the Sprite the LED is attached to pin 5. Replace the three instances of "14" with 5".

@@ -47,10 +47,10 @@ Once everything is connected and Energia is running it's time to write some code
 
 3. Looking at the source code, you'll notice two functions - "setup" and "loop". This is how all Arduino/Energia programs are structured. The setup code will run once when the microcontroller starts up, and then the loop code will run repeatedly thereafter. This code is configured to blink an LED attached to pin 14, but on the Sprite the LED is attached to pin 5. Replace the three instances of "14" with 5".
 
-    ![Blink](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Blink1.jpg)
+    ![Blink](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Blink.png)
 
 4. To make sure our code compiles without any errors, click the "Verify" button (the round check mark button at the upper left of the Energia window).
 
-    ![Verify](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Blink2.jpg)
+    ![Verify](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Verify.png)
 
 5. Now we're ready to load our code onto the Sprite. Click the "Upload" button (located to the right of the "Verify" button). After a few seconds, you should see the green LED on the Sprite illuminate, then turn on and off once per second.

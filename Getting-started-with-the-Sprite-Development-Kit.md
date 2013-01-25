@@ -1,4 +1,4 @@
-**Caution: Please don't plug the Sprite in before reading the hardware section below - you could damage the solar cells.**
+***Caution: Please don't plug the Sprite in before reading the hardware section below - you could damage the solar cells.***
 
 To program the Sprite we'll be using a piece of software called [Energia](http://energia.nu/). Energia is a port of the [Arduino](http://arduino.cc/) environment and libraries to the Texas Instruments MSP430 microcontroller which is used on the Sprite. If you've ever programmed an Arduino, it should be very familiar. If you've never programmed a microcontroller before, I'd recommend having a look through the [documentation](http://arduino.cc/en/Reference/HomePage) and [examples](http://arduino.cc/en/Tutorial/HomePage) provided by both the [Energia](https://github.com/energia/Energia/wiki/Getting-Started) and [Arduino](http://arduino.cc/en/Guide/Environment) projects (note that not all of the examples will run on the Sprite).
 

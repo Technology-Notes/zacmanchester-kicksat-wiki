@@ -32,7 +32,7 @@ There are several [tutorials](http://elabz.com/msp430-in-64-bit-ubuntu-12-04-lin
 
     ![UnBox](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_UnBox.jpg)
 
-2. Because the solar cells run at a different voltage than the programmer, they must be disconnected before plugging in Sprite into the programmer to avoid damage. To do this, remove the small jumper on the left edge of the Sprite. After the Sprite has been disconnected from the programmer, you can replace the jumper.
+2. Because the solar cells run at a different voltage than the programmer, they must be disconnected before plugging the Sprite into the programmer to avoid damage. To do this, remove the small jumper on the left edge of the Sprite. After the Sprite has been disconnected from the programmer, you can replace the jumper.
 
     ![Jumper](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Jumper.jpg)
 

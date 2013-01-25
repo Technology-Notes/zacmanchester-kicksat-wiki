@@ -1,3 +1,5 @@
+***Note: This details how to use GCC with Eclipse to program the Sprite rather than Energia. Most people will want to use Energia as detailed [here](https://github.com/zacinaction/kicksat/wiki/Getting-started-with-the-Sprite-Development-Kit).***
+
 ## Setting Up A Development Environment in Xubuntu
 The following guide will be a step by step tutorial in installing the development environment for the msp430 line of microcontrollers in Xubuntu, tailored specifically for sprite chipsat boards. Although Eclipse will be downloaded later and a mps430 plugin installed for it, it's debugging features are not fully functional, therefore a separate version of the toolchain will additionally be compiled.
 

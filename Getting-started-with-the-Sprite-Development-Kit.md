@@ -53,4 +53,10 @@ Once everything is connected and Energia is running it's time to write some code
 
     ![Verify](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Verify.png)
 
-5. Now we're ready to load our code onto the Sprite. Click the "Upload" button (located to the right of the "Verify" button). After a few seconds, you should see the green LED on the Sprite illuminate, then turn on and off once per second.
+5. Now we're ready to load our code onto the Sprite. Click the "Upload" button (located to the right of the "Verify" button).
+
+    ![Upload](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Upload.png)
+
+6. After a few seconds, you should see the green LED on the Sprite illuminate, then turn on and off once per second.
+
+

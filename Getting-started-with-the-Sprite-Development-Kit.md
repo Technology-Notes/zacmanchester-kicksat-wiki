@@ -33,6 +33,9 @@ There are several [tutorials](http://elabz.com/msp430-in-64-bit-ubuntu-12-04-lin
     ![UnBox](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_UnBox.jpg)
 
 2. Because the solar cells run at a different voltage than the programmer, they must be disconnected before plugging in Sprite into the programmer to avoid damage. To do this, remove the small jumper on the left edge of the Sprite. After the Sprite has been disconnected from the programmer, you can replace the jumper.
+
+    ![Jumper](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Jumper.jpg)
+
 3. Plug the Sprite into the programmer.
 4. Connect the programmer to your computer's USB port. You should see a green LED illuminate on the programmer board.
 5. Run Energia (see above).

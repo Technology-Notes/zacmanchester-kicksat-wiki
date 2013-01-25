@@ -1,3 +1,5 @@
+*** Note: This details how to use GCC with Eclipse to program the Sprite rather than Energia. Most people will want to use Energia as detailed [here](https://github.com/zacinaction/kicksat/wiki/Getting-started-with-the-Sprite-Development-Kit). ***
+
 This guide will explain how to program chipsat boards using the usb programmer on TI MSP430 Launchpad boards.
 
 ## Hooking up a TI MSP430 Launchpad board to a chipsat board via SBW (spi-bi-wire)

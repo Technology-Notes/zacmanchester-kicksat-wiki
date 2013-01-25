@@ -23,7 +23,7 @@ We'll be using a version of Energia specially modified for the Sprite. There are
 6. Run Energia by double-clicking the Energia application
 
 ### Linux
-I won't give step by step instructions here since they will vary depending on your distribution. Most recent linux distributions ship with the LaunchPad drivers already installed. To get Energia running you'll need a JDK installed as well as Ant mspgcc, and mspdebug. These are likely available through your distribution's package manager. Once you have the prerequisites installed, download or git clone the [source code](https://github.com/zacinaction/Energia/tree/Branch_CC430_RF_support), open a terminal, cd into the build directory, and type "ant run".
+I won't give step by step instructions here since they will vary depending on your distribution. Most recent linux distributions ship with the LaunchPad drivers already installed. To get Energia running you'll need a JDK installed as well as Ant, mspgcc, and mspdebug. These are likely available through your distribution's package manager. Once you have the prerequisites installed, download or git clone the [source code](https://github.com/zacinaction/Energia/tree/Branch_CC430_RF_support), open a terminal, cd into the build directory, and type "ant run".
 
 There are several [tutorials](http://elabz.com/msp430-in-64-bit-ubuntu-12-04-linux-the-arduino-way/) [available](http://www2.sakoman.com/OMAP/how-to-develop-msp430-launchpad-code-on-linux.html) [online](http://forum.43oh.com/topic/2184-energia-linux-installation/) for getting Energia running on linux.
 

@@ -59,4 +59,4 @@ Once everything is connected and Energia is running it's time to write some code
 
 6. After a few seconds, you should see the green LED on the Sprite illuminate, then turn on and off once per second.
 
-
+    ![Blink](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Blink.jpg)

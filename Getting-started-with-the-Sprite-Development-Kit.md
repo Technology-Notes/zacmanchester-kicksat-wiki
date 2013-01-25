@@ -39,11 +39,11 @@ Once everything is connected and Energia is running it's time to write some code
 
 1. Make sure the correct microcontroller is selected. Click Tools->Board and make sure "Launchpad w/ cc430f5137" is selected.
 
-    ![MCU_Select](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_MCU_Select.jpg)
+        ![MCU_Select](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_MCU_Select.jpg)
 
 2. Click the "Open" button at the top of the Energia window, then under the "Basics" menu, select "Blink". We'll need to modify this code slightly to work on the Sprite.
 
-    ![Open](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Open.jpg)
+        ![Open](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Open.jpg)
 
 3. Looking at the source code, you'll notice two functions - "setup" and "loop". This is how all Arduino/Energia programs are structured. The setup code will run once when the microcontroller starts up, and then the loop code will run repeatedly thereafter. This code is configured to blink an LED attached to pin 14, but on the Sprite the LED is attached to pin 5. Replace the three instances of "14" with 5".
 4. To make sure our code compiles without any errors, click the "Verify" button (the round check mark button at the upper left of the Energia window).

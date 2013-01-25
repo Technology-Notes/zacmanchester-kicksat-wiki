@@ -40,7 +40,7 @@ There are several [tutorials](http://elabz.com/msp430-in-64-bit-ubuntu-12-04-lin
 
     ![PluggedIn](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_PluggedIn.jpg)
 
-4. Connect the programmer to your computer's USB port. You should see a green LED illuminate on the programmer board.
+4. Connect the programmer to your computer's USB port. You should see a green LED illuminate on the programmer.
 5. Run Energia (see above).
 
 ## Your First Sprite Program

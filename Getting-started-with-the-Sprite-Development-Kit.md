@@ -50,4 +50,7 @@ Once everything is connected and Energia is running it's time to write some code
     ![Blink](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Blink1.jpg)
 
 4. To make sure our code compiles without any errors, click the "Verify" button (the round check mark button at the upper left of the Energia window).
+
+    [https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Blink2.jpg](Verify)
+
 5. Now we're ready to load our code onto the Sprite. Click the "Upload" button (located to the right of the "Verify" button). After a few seconds, you should see the green LED on the Sprite illuminate, then turn on and off once per second.

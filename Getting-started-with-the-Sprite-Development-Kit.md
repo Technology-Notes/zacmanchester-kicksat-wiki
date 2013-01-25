@@ -37,6 +37,9 @@ There are several [tutorials](http://elabz.com/msp430-in-64-bit-ubuntu-12-04-lin
     ![Jumper](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Jumper.jpg)
 
 3. Plug the Sprite into the programmer.
+
+    ![PluggedIn](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_PluggedIn.jpg)
+
 4. Connect the programmer to your computer's USB port. You should see a green LED illuminate on the programmer board.
 5. Run Energia (see above).
 

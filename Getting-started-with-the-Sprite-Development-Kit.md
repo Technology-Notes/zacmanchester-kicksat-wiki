@@ -28,5 +28,16 @@ I won't give step by step instructions here since they will vary depending on yo
 There are several [tutorials](http://elabz.com/msp430-in-64-bit-ubuntu-12-04-linux-the-arduino-way/) [available](http://www2.sakoman.com/OMAP/how-to-develop-msp430-launchpad-code-on-linux.html) [online](http://forum.43oh.com/topic/2184-energia-linux-installation/) for getting Energia running on linux.
 
 ## Connecting the Hardware
+1. Unbox the development kit
+2. Because the solar cells run at a different voltage than the programmer, they must be disconnected before plugging in Sprite into the programmer to avoid damage. To do this, remove the small jumper on the left edge of the Sprite. After the Sprite has been disconnected from the programmer, you can replace the jumper.
+3. Plug the Sprite into the programmer.
+4. Connect the programmer to your computer's USB port. You should see a green LED illuminate on the programmer board.
+5. Run Energia (see above).
 
 ## Your First Sprite Program
+Once everything is connected and Energia is running it's time to write some code. We'll go through a basic example that will blink the LED on the Sprite.
+1. Make sure the correct microcontroller is selected. Click Tools->Board and make sure "Launchpad w/ cc430f5137" is selected.
+2. Click open, then under the "Basics" menu, select "Blink". We'll need to modify this code slightly to work on the Sprite.
+3. Looking at the source code, you'll notice two functions - "setup" and "loop". This is how all Arduino/Energia programs are structured. The setup code will run once when the microcontroller starts up, and then the loop code will run repeatedly thereafter. This code is configured to blink an LED attached to pin 14, but on the Sprite the LED is attached to pin 5. Replace the three instances of "14" with 5".
+4. To make sure our code compiles without any errors, click the "Verify" button (the round check mark button at the upper left of the Energia window).
+5. Now we're ready to load our code onto the Sprite. Click the "Upload" button (located to the right of the "Verify" button). After a few seconds, you should see the green LED on the Sprite illuminate, then turn on and off once per second.

@@ -54,7 +54,7 @@ Once everything is connected and Energia is running it's time to write some code
 
     ![Open](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Open.jpg)
 
-3. Looking at the source code, you'll notice two functions - "setup" and "loop". This is how all Arduino/Energia programs are structured. The setup code will run once when the microcontroller starts up, and then the loop code will run repeatedly thereafter. This code is configured to blink an LED attached to pin 14, but on the Sprite the LED is attached to pin 5. Replace the three instances of "14" with 5".
+3. Looking at the source code, you'll notice two functions - "setup" and "loop". This is how all Arduino/Energia programs are structured. The setup code will run one time when the microcontroller first starts up. The loop code will then run repeatedly until the microcontroller is powered off. The code we've just opened is configured to blink an LED attached to pin 14, but on the Sprite the LED is attached to pin 5. Let's replace the three instances of "14" with "5".
 
     ![Blink](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Blink.png)
 

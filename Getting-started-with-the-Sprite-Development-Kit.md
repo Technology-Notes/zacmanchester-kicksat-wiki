@@ -50,7 +50,7 @@ Once everything is connected and Energia is running it's time to write some code
 
     ![MCU_Select](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_MCU_Select.jpg)
 
-2. Click the "Open" button at the top of the Energia window, then under the "Basics" menu, select "Blink". We'll need to modify this code slightly to work on the Sprite.
+2. Click the "Open" button at the top of the Energia window, then under the "Basics" menu, select "Blink". ***Note that if you use the File->Open dialog box instead of the Open button, it will be located under examples->Basics->Blink->Blink.ino inside your Energia folder***. We'll need to modify this code slightly to work on the Sprite.
 
     ![Open](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/HowTo_Open.jpg)
 

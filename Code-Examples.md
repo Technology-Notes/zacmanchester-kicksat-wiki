@@ -19,7 +19,9 @@ void loop() {
 }
 ```
 
-Basically, you'll need to call `Serial.begin(9600);` in your setup function, then anywhere you'd like to send data back, call `Serial.println("Put stuff here");`. To see the data on your PC, click the "Serial Monitor" button in the top right corner of the Energia window.
+Basically, you'll need to call `Serial.begin(9600);` in your setup function, then any time you'd like to send data back, call `Serial.println("Put stuff here");`.
+
+After you compile and upload the code onto the Sprite, click the "Serial Monitor" button in the top right corner of the Energia window to read what's being sent over the serial connection.
 
 ![SerialDemo](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Example_SerialDemo.png)
 

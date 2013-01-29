@@ -66,7 +66,7 @@ In the setup function we call `mag.init()` to initialize the magnetometer. After
 
 One more thing to point out in this example is the use of `Serial.print()` as well as `Serial.println()`. The difference is that `Serial.println()` prints on a new line, while `Serial.print()` continues on the same line.
 
-Now you can hit the upload button and launch the serial monitor just like in the previous example. The values you'll see are the raw readings for the magnetometer and need to be scaled to whatever particular units you want (see the data sheet).
+Now you can hit the upload button and launch the serial monitor just like in the previous example. The values you'll see are the raw readings from the magnetometer and need to be scaled to whatever particular units you want (see the data sheet).
 
 ## Using the Gyroscope
 

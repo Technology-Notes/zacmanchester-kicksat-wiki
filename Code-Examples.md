@@ -64,7 +64,7 @@ This code uses a few more C/C++ features than the last example. SpriteMag is a c
 
 In the setup function we call `mag.init()` to initialize the magnetometer. After that, you can call `mag.read()` whenever you want to read from the magnetometer. Note that `mag.read()` returns a struct called `MagneticField`. You can think of a struct as a container for data. In this case, `MagneticField` has three pieces of data - the x, y, and z components of the local magnetic field vector. We access the values by putting ".x", ".y", or ".z" after the struct name (`b.x`, `b.y`, and `b.z` in this case).
 
-One more thing to point out in this example is the use of `Serial.print()` as `Serial.println()`. The difference is that `Serial.println()` prints on a new line, while `Serial.print()` continues on the same line.
+One more thing to point out in this example is the use of `Serial.print()` as well as `Serial.println()`. The difference is that `Serial.println()` prints on a new line, while `Serial.print()` continues on the same line.
 
 Now you can hit the upload button and launch the serial monitor just like in the previous example. The values you'll see are the raw readings for the magnetometer and need to be scaled to whatever particular units you want (see the data sheet).
 

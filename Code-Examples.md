@@ -27,6 +27,8 @@ After you compile and upload the code onto the Sprite, click the "Serial Monitor
 
 ![SerialDemo](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Example_SerialDemo.png)
 
+![Hello](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Example_SerialHello.png)
+
 ## Using the Magnetometer
 
 ## Using the Gyroscope

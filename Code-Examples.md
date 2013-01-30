@@ -99,7 +99,7 @@ void loop() {
 }
 ```
 
-Just like in the magnetometer example, we create an instance of the SpriteGyro class (called "gyro" in the code above), call 'gyro.init()' in our 'setup()' function, then call 'gyro.read()' whenever we want to read from the sensor. Also like the magnetometer code, the 'read()' function returns a struct containing the x, y, and z components of the vector we're measuring.
+Just like in the magnetometer example, we create an instance of the SpriteGyro class (called "gyro" in the code above), call `gyro.init()` in our `setup()` function, then call `gyro.read()` whenever we want to read from the sensor. Also like the magnetometer code, the `read()` function returns a struct containing the x, y, and z components of the vector we're measuring.
 
 Upload the code, fire up the serial monitor, and you should be able to twist and turn your Sprite in different directions and watch the angular velocity components change. As with the magnetometer, the numbers are raw values from the sensor and must be scaled to appropriate units (see the datasheet).
 

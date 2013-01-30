@@ -103,4 +103,4 @@ Just like in the magnetometer example, we create an instance of the SpriteGyro c
 
 Upload the code, fire up the serial monitor, and you should be able to twist and turn your Sprite in different directions and watch the angular velocity components change. As with the magnetometer, the numbers are raw values from the sensor and must be scaled to appropriate units (see the datasheet).
 
-You may notice that your gyro has a constant bias - that is it will display a non-zero value even when the Sprite is perfectly still. This is normal. You can calibrate your gyro by noting the offset and subtracting it off the measured value.
+You may notice that your gyro has a bias. That is, it will display a non-zero value even when the Sprite is perfectly still. This is normal. You can calibrate your gyro by noting the offset and subtracting it off the measured value.

@@ -70,4 +70,37 @@ Now you can hit the upload button and launch the serial monitor just like in the
 
 ## Using the Gyroscope
 
-## Using the Radio
+The gyroscope on the Sprite is an ITG-3200 chip made by Invensense. Here's the [datasheet](http://www.sparkfun.com/datasheets/Sensors/Gyro/PS-ITG-3200-00-01.4.pdf).  
+
+The ITG-3200 is a 3-axis MEMS gyro. It will tell you your angular velocity vector - how fast you're spinning and in which direction. Like in the previous example, we're going to read the x, y, and z components of the angular velocity vector then write them to the serial port. Here's the code:
+
+```
+#include <SpriteGyro.h>
+
+SpriteGyro gyro = SpriteGyro();
+
+void setup() {
+  gyro.init();
+  Serial.begin(9600);
+}
+
+void loop() {
+  
+  AngularVelocity w = gyro.read();
+  
+  Serial.print("x: ");
+  Serial.print(w.x);
+  Serial.print("    y:");
+  Serial.print(w.y);
+  Serial.print("    z: ");
+  Serial.println(w.z);
+  
+  delay(250);
+}
+```
+
+Just like in the magnetometer example, we create an instance of the SpriteGyro class (called "gyro" in the example), call 'gyro.init()' in our 'setup()' function, then call 'gyro.read()' whenever we want to read from the sensor. Also like the magnetometer code, the 'read()' function returns a struct containing the x, y, and z components of the vector we're measuring.
+
+Upload the code, fire up the serial monitor, and you should be able to twist and turn your Sprite in different directions and watch the angular velocity components change. As with the magnetometer, the numbers are raw values from the sensor and must be scaled to appropriate units (see the datasheet).
+
+You may notice that your gyro has a constant bias - that is it will display a non-zero value even when the Sprite is perfectly still. This is normal. You can calibrate your gyro by noting the offset and subtracting it off the measured value.

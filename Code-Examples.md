@@ -72,7 +72,7 @@ Now you can hit the upload button and launch the serial monitor just like in the
 
 The gyroscope on the Sprite is an ITG-3200 chip made by Invensense. Here's the [datasheet](http://www.sparkfun.com/datasheets/Sensors/Gyro/PS-ITG-3200-00-01.4.pdf).  
 
-The ITG-3200 is a 3-axis MEMS gyro. It will tell you your angular velocity vector - how fast you're spinning and in which direction. Like in the previous example, we're going to read the x, y, and z components of the angular velocity vector then write them to the serial port. Here's the code:
+The ITG-3200 is a 3-axis MEMS gyro. It will tell you your instantaneous angular velocity vector (how fast you're spinning and in which direction). Like in the previous example, we're going to read the x, y, and z components of the angular velocity vector then write them to the serial port. Here's the code:
 
 ```
 #include <SpriteGyro.h>

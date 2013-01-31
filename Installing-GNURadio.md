@@ -1,4 +1,4 @@
-- Fresh install of Ubuntu, Linux Mint 14, etc.
+- Fresh install of latest version of Ubuntu, Linux Mint, etc.
 - I used Linux Mint 14 XFCE
 - Install gnuradio, gnuradio-dev, cmake, git, libboost-all-dev, libusb-1.0-0, libusb-1.0-0-dev, libfftw3-dev, swig
 

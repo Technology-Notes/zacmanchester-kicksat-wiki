@@ -33,3 +33,4 @@ local_blocks_path=/usr/local/share/gnuradio/grc/blocks
 - cmake ..
 - make
 - sudo make install
+- sudo ldconfig

@@ -38,7 +38,7 @@ local_blocks_path=/usr/local/share/gnuradio/grc/blocks
 ```
 
 ## Install Sprite GNURadio Blocks
-Now were going to install the Sprite reciever blocks for GNURadio
+Now were going to install the Sprite reciever blocks for GNURadio. Same drill as before...
 - git clone git://github.com/zacinaction/kicksat
 - cd kicksat/GroundStation/GNURadio/gr-sprite
 - mkdir build

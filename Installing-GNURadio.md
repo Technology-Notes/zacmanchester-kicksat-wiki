@@ -20,8 +20,10 @@
 - make
 - sudo make install
 - Create the file ~/.gnuradio/config.conf with the following contents:
+'''
 [grc]
 local_blocks_path=/usr/local/share/gnuradio/grc/blocks
+'''
 
 ## Install Sprite GNURadio Blocks
 - git clone git://github.com/zacinaction/kicksat

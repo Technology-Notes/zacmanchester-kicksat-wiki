@@ -1,4 +1,5 @@
-- Fresh install of Ubuntu 12.10 (Mint 14)
+- Fresh install of Ubuntu, Linux Mint 14, etc.
+- I used Linux Mint 14 XFCE
 - Install gnuradio, gnuradio-dev, cmake, git, libboost-all-dev, libusb-1.0-0, libusb-1.0-0-dev, libfftw3-dev, swig
 
 ## Install RTL-SDR driver

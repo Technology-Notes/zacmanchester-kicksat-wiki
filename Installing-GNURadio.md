@@ -2,7 +2,7 @@
 - I used Linux Mint 14 XFCE
 - Install gnuradio, gnuradio-dev, cmake, git, libboost-all-dev, libusb-1.0-0, libusb-1.0-0-dev, libfftw3-dev, swig
 
-## Install RTL-SDR driver
+### Install RTL-SDR Driver
 - git clone git://git.osmocom.org/rtl-sdr.git
 - cd rtl-sdr
 - mkdir build

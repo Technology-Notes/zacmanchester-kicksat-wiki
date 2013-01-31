@@ -48,4 +48,4 @@ Now were going to install the Sprite reciever blocks for GNURadio
 - sudo make install
 - sudo ldconfig
 
-That's it! You should now have a working GNURadio installation.
+### That's it! You should now have a working GNURadio installation.

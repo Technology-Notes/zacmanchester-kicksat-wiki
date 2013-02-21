@@ -1,4 +1,4 @@
-Thankfully the latest version of Ubuntu has a recent enough version of GNURadio for our purposes (3.6.1 at the time of this writing). The following steps will detail how to get a working GNURadio setup for receiving Sprite signals. I started with a fresh install of Linux Mint 14 XFCE, but any Ubuntu-based distro should work just fine.
+Thankfully the latest version of Ubuntu has a recent enough version of GNURadio for our purposes (3.6.1 at the time of this writing). The following steps will detail how to get a working GNURadio setup for receiving Sprite signals. I started with a fresh install of [Linux Mint 14 XFCE](http://www.linuxmint.com/edition.php?id=127), but any Ubuntu-based distro should work just fine.
 
 ## Install Prerequisites
 Using the package manager (either Synaptic from the GUI or apt-get from the terminal), install the following:

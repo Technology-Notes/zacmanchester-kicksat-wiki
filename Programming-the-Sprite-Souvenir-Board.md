@@ -15,7 +15,7 @@ I provided links to SparkFun above, but you can get this stuff from any decent p
 ![Supplies](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_Supplies.jpg)
 
 # Soldering On The Headers
-First, you'll need to solder headers onto the four plated holes on the right side of the Sprite board.
+First, you'll need to solder headers onto the four plated holes on the right side of the Sprite board. Depending on what kind of headers you have, you may need to snap off the appropriate number (that's why they're called "breakaway").
 
 ![Holes](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_Holes.jpg)
 

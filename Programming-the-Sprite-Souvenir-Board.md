@@ -5,7 +5,9 @@ In addition to a Sprite souvenir board, you'll need:
 * [1 TI MSP430 Launchpad Kit](https://www.sparkfun.com/products/10020)
 * [4 Breakaway Headers](https://www.sparkfun.com/products/116)
 * [4 Jumper Wires](https://www.sparkfun.com/products/9389)
-* A soldering iron and solder
+* A soldering iron
+* Solder
+
 I provided links to SparkFun above, but you can get this stuff from any decent purveyor of electronic components.
 
 ![Supplies](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_Supplies.jpg)
@@ -28,3 +30,10 @@ Here's what the finished product should look like:
 ![Back](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_Back.jpg)
 ![Front](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_Front.jpg)
 
+# Connecting The Programmer
+
+Unbox the Launchpad and remove all of the jumpers on the top of the board. It should look like this:
+
+![Launchpad](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_Launchpad.jpg)
+
+Connect three jumper wires to the pins 

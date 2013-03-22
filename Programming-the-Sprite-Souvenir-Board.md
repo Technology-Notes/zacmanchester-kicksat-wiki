@@ -36,4 +36,11 @@ Unbox the Launchpad and remove all of the jumpers on the top of the board. It sh
 
 ![Launchpad](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_Launchpad.jpg)
 
-Connect three jumper wires to the pins 
+Connect three jumper wires to the right-most three pins in the top row of the large header on the Launchpad. These pins are marked VCC, TEST, and RST from right to left. Make sure to connect to the pins in the top row, not the bottom.Connect your fourth jumper wire to the ground (GND) pin on the lower right of the Launchpad.
+
+![Launchpad Wires](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_LPWires.jpg)
+
+Now connect the opposite ends of the jumper wires to the Sprite. The connections are TEST, RST, VCC, GND, going counterclockwise and starting in the upper right.
+
+![Wires](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_Wires.jpg)
+

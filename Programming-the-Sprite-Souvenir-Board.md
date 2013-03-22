@@ -40,7 +40,11 @@ Connect three jumper wires to the right-most three pins in the top row of the la
 
 ![Launchpad Wires](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_LPWires.jpg)
 
-Now connect the opposite ends of the jumper wires to the Sprite. The connections are TEST, RST, VCC, GND, going counterclockwise and starting in the upper right.
+Now connect the opposite ends of the jumper wires to the Sprite. The connections are TEST, RST, VCC, GND, going counterclockwise from the upper right.
 
 ![Wires](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_Wires.jpg)
+
+# Blinking LEDs
+
+Now that everything is hooked up, you're ready to run your first Sprite program. Download and install the Sprite build of Energia as documented on the developer kit page.
 

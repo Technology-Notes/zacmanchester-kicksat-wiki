@@ -1,5 +1,7 @@
 The Sprite souvenir boards are populated with fully functional CC430 microcontroller / radio transceiver chips. With a few modifications they can be programmed to blink LEDs and transmit signals. This how-to guide will show you how to get started.
 
+**Note that this guide only covers basic programming of the CC430. Some extra components need to be populated on the board to get the radio working. A future how-to guide will detail those extra steps.**
+
 # Supplies
 In addition to a Sprite souvenir board, you'll need:
 * [1 TI MSP430 Launchpad Kit](https://www.sparkfun.com/products/10020)

@@ -49,8 +49,49 @@ Now connect the opposite ends of the jumper wires to the Sprite. The connections
 Now that everything is hooked up, you're ready to run your first Sprite program. Download and install the Sprite build of Energia as documented on the [the developer kit wiki page](https://github.com/zacinaction/kicksat/wiki/Getting-started-with-the-Sprite-Development-Kit#installing-software).
 
 Here's the code we're going to run:
-``
+```
+/*
+  Blink
+  Turns on an LEDs on the Sprite souvenir in sequence
+ */
 
-Once you fire up Energia and plug the Launchpad into your computer with a USB cable, copy and paste the following code into the Energia window and hit "Upload".
+void setup() {                
+  // initialize the digital pins as outputs.
+  // Pins 1-6 have LEDs connected on the Sprite Replica boards:
+  pinMode(1, OUTPUT);
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+  
+  digitalWrite(1, HIGH);   // set the LED above the "i" on
+}
+
+void loop() {
+  //Turn LEDs on in sequence
+  digitalWrite(6, HIGH);   // set the LED on
+  delay(300);
+  digitalWrite(5, HIGH);   // set the LED on
+  delay(300);
+  digitalWrite(4, HIGH);   // set the LED on
+  delay(300);
+  digitalWrite(3, HIGH);   // set the LED on
+  delay(300);
+  digitalWrite(2, HIGH);   // set the LED on
+  delay(600);
+  digitalWrite(2, LOW);    // set the LED off
+  digitalWrite(3, LOW);    // set the LED off
+  digitalWrite(4, LOW);    // set the LED off
+  digitalWrite(5, LOW);    // set the LED off
+  digitalWrite(6, LOW);    // set the LED off
+  delay(600);
+}
+```
+Once you fire up Energia and plug the Launchpad into your computer with a USB cable, copy and paste the code into the Energia window and hit "Upload".
 
 ![Energia](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_Energia.png)
+
+If all goes well, after a few seconds you should start to see the LEDs on your souvenir board light up!
+
+![Blink](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_Blink.jpg)

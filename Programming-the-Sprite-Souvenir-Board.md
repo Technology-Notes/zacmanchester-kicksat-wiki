@@ -46,5 +46,11 @@ Now connect the opposite ends of the jumper wires to the Sprite. The connections
 
 # Blinking LEDs
 
-Now that everything is hooked up, you're ready to run your first Sprite program. Download and install the Sprite build of Energia as documented on the developer kit page.
+Now that everything is hooked up, you're ready to run your first Sprite program. Download and install the Sprite build of Energia as documented on the [the developer kit wiki page](https://github.com/zacinaction/kicksat/wiki/Getting-started-with-the-Sprite-Development-Kit#installing-software).
 
+Here's the code we're going to run:
+``
+
+Once you fire up Energia and plug the Launchpad into your computer with a USB cable, copy and paste the following code into the Energia window and hit "Upload".
+
+![Energia](https://dl.dropbox.com/u/19178351/GItHub%20Wiki%20Pictures/Souvenir_Energia.png)

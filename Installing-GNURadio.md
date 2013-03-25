@@ -27,7 +27,7 @@ cd ~ && git clone --progress git://github.com/zacinaction/kicksat && cd kicksat/
 ## Add GNURadio Config File
 The last step is to add a config file telling GNURadio where to look for the new blocks we just installed. The following command will do this for you:
 ```
-echo -e "[grc]\nlocal_blocks_path=/usr/local/share/gnuradio/grc/blocks" >> ~/.gnuradio/config.conf
+mkdir ~/.gnuradio && echo -e "[grc]\nlocal_blocks_path=/usr/local/share/gnuradio/grc/blocks" >> ~/.gnuradio/config.conf
 ```
 
 ### That's it! You should now have a working GNURadio installation.

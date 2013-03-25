@@ -1,16 +1,11 @@
-Thankfully the latest version of Ubuntu has a recent enough version of GNURadio for our purposes (3.6.1 at the time of this writing). The following steps will detail how to get a working GNURadio setup for receiving Sprite signals. I started with a fresh install of [Linux Mint 14 XFCE](http://www.linuxmint.com/edition.php?id=127), but any Ubuntu-based distro should work just fine.
+Thankfully the latest version of Ubuntu has a recent enough version of GNURadio for our purposes (3.6.1 at the time of this writing). The following steps will detail how to get a working GNURadio setup for receiving Sprite signals. I started with a fresh install of [Ubuntu](http://www.ubuntu.com/download/desktop), but any Ubuntu-based distro (Kubunut, Xubuntu, Mint, etc.) should work just fine.
 
 ## Install Prerequisites
-Using the package manager (either Synaptic from the GUI or apt-get from the terminal), install the following:
-- gnuradio
-- gnuradio-dev
-- cmake
-- git
-- libboost-all-dev
-- libusb-1.0-0
-- libusb-1.0-0-dev
-- libfftw3-dev, swig
-
+Open a terminal and run the following command:
+```
+sudo apt-get install gnuradio gnuradio-dev cmake git libboost-all-dev libusb-1.0-0 libusb-1.0-0-dev libfftw3-dev swig
+```
+You'll be asked to enter your administrator password, then told about some additional packages that will also be installed to cover dependencies. Hit enter and wait a few minutes while the necessary packages are downloaded and installed.
 ## Install RTL-SDR Driver
 This is the driver that allows us to use the USB radio dongle. Open a terminal, cd into your favorite directory (probably somewhere in your home folder), and run the following commands in order:
 - git clone git://git.osmocom.org/rtl-sdr.git

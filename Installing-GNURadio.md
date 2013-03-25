@@ -15,7 +15,7 @@ cd ~ && git clone --progress git://git.osmocom.org/rtl-sdr.git && cd rtl-sdr && 
 ## Install RTL-SDR GNURadio Block
 This will install a block in GNURadio companion allowing you to use the RTL-SDR driver from GNURadio's GUI editor. Copy and paste, then execute the following in your terminal:
 ```
-cd ~ && git clone --progress git://git.osmocom.org/gr-osmosdr && cd gr-osmosdr && mkdir build && cd build && cmake .. && make && sudo make install && echo -e "[grc]\nlocal_blocks_path=/usr/local/share/gnuradio/grc/blocks" >> ~/.gnuradio/config.conf
+cd ~ && git clone --progress git://git.osmocom.org/gr-osmosdr && cd gr-osmosdr && mkdir build && cd build && cmake .. && make && sudo make install
 ```
 
 ## Install Sprite GNURadio Blocks
@@ -23,4 +23,11 @@ Now were going to install the Sprite reciever blocks for GNURadio. Same drill as
 ```
 cd ~ && git clone git://github.com/zacinaction/kicksat && cd kicksat/GroundStation/GNURadio/gr-sprite && mkdir build && cd build && cmake .. && make && sudo make install && sudo ldconfig
 ```
+
+## Add GNURadio Config File
+The last step is to add a config file telling GNURadio where to look for the new blocks we just installed. The following command will do this for you:
+```
+echo -e "[grc]\nlocal_blocks_path=/usr/local/share/gnuradio/grc/blocks" >> ~/.gnuradio/config.conf
+```
+
 ### That's it! You should now have a working GNURadio installation.

@@ -1,7 +1,7 @@
 Thankfully the latest version of Ubuntu has a recent enough version of GNURadio for our purposes (3.6.1 at the time of this writing). The following steps will detail how to get a working GNURadio setup for receiving Sprite signals. I started with a fresh install of [Ubuntu](http://www.ubuntu.com/download/desktop), but any Ubuntu-based distro (Kubunut, Xubuntu, Mint, etc.) should work just fine.
 
 ## Install Prerequisites
-Open a terminal and run the following command:
+Open a terminal, copy and paste, then run the following command:
 ```
 sudo apt-get install gnuradio gnuradio-dev cmake git libboost-all-dev libusb-1.0-0 libusb-1.0-0-dev libfftw3-dev swig python-numpy
 ```

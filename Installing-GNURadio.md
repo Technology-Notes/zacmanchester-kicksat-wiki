@@ -15,13 +15,7 @@ cd ~ && git clone --progress git://git.osmocom.org/rtl-sdr.git && cd rtl-sdr && 
 ## Install RTL-SDR GNURadio Block
 This will install a block in GNURadio companion allowing you to use the RTL-SDR driver from GNURadio's GUI editor. Copy and paste, then execute the following in your terminal:
 ```
-cd ~ && git clone --progress git://git.osmocom.org/gr-osmosdr && cd gr-osmosdr && mkdir build && cd build && cmake .. && make && sudo make install
-```
-
-The last thing you'll need to do here is to create a text file ~/.gnuradio/config.conf with the following contents:
-```
-[grc]
-local_blocks_path=/usr/local/share/gnuradio/grc/blocks
+cd ~ && git clone --progress git://git.osmocom.org/gr-osmosdr && cd gr-osmosdr && mkdir build && cd build && cmake .. && make && sudo make install && echo -e "[grc]\nlocal_blocks_path=/usr/local/share/gnuradio/grc/blocks" >> ~/.gnuradio/config.conf
 ```
 
 ## Install Sprite GNURadio Blocks

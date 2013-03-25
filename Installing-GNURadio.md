@@ -21,7 +21,7 @@ cd ~ && git clone --progress git://git.osmocom.org/gr-osmosdr && cd gr-osmosdr &
 ## Install Sprite GNURadio Blocks
 Now were going to install the Sprite reciever blocks for GNURadio. Same drill as before...
 ```
-cd ~ && git clone git://github.com/zacinaction/kicksat && cd kicksat/GroundStation/GNURadio/gr-sprite && mkdir build && cd build && cmake .. && make && sudo make install && sudo ldconfig
+cd ~ && git clone --progress git://github.com/zacinaction/kicksat && cd kicksat/GroundStation/GNURadio/gr-sprite && mkdir build && cd build && cmake .. && make && sudo make install && sudo ldconfig
 ```
 
 ## Add GNURadio Config File

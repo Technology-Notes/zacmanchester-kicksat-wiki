@@ -3,7 +3,7 @@ Thankfully the latest version of Ubuntu has a recent enough version of GNURadio 
 ## Install Prerequisites
 Open a terminal and run the following command:
 ```
-sudo apt-get install gnuradio gnuradio-dev cmake git libboost-all-dev libusb-1.0-0 libusb-1.0-0-dev libfftw3-dev swig
+sudo apt-get install gnuradio gnuradio-dev cmake git libboost-all-dev libusb-1.0-0 libusb-1.0-0-dev libfftw3-dev swig python-numpy
 ```
 You'll be asked to enter your administrator password and told about some additional packages that will be installed to cover dependencies. Hit enter and wait a few minutes while the necessary packages are downloaded and installed.
 ## Install RTL-SDR Driver

@@ -5,7 +5,7 @@ Open a terminal and run the following command:
 ```
 sudo apt-get install gnuradio gnuradio-dev cmake git libboost-all-dev libusb-1.0-0 libusb-1.0-0-dev libfftw3-dev swig
 ```
-You'll be asked to enter your administrator password, then told about some additional packages that will also be installed to cover dependencies. Hit enter and wait a few minutes while the necessary packages are downloaded and installed.
+You'll be asked to enter your administrator password and told about some additional packages that will be installed to cover dependencies. Hit enter and wait a few minutes while the necessary packages are downloaded and installed.
 ## Install RTL-SDR Driver
 This is the driver that allows us to use the USB radio dongle. Open a terminal, cd into your favorite directory (probably somewhere in your home folder), and run the following commands in order:
 - git clone git://git.osmocom.org/rtl-sdr.git

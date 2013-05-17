@@ -1,4 +1,4 @@
-I've written a script that should handle installing GNURadio, the RTL-SDR and Funcube drivers for the USB receiver dongles, and the Sprite receiver blocks, on a recent installation of Ubuntu (or one of the many other distributions based on Ubuntu). It's been tested on fresh installs of 32 and 64 bit Ubuntu 13.04. Here's what to do:
+I've written a script that should handle installing GNURadio, the RTL-SDR and Funcube drivers for the USB receiver dongles, and the Sprite receiver blocks, on a recent installation of [Ubuntu](http://www.ubuntu.com/) (or one of the many other distributions based on Ubuntu). It's been tested on fresh installs of 32 and 64 bit [Ubuntu 13.04](http://www.ubuntu.com/download/desktop/install-desktop-latest). Here's what to do:
 
 #### 1. Download Install Script
 [Grab the script here](https://raw.github.com/zacinaction/kicksat/master/GroundStation/GNURadio/Install-SpriteRadio) and save it somewhere convenient (e.g. your home folder).

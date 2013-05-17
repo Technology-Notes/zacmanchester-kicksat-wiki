@@ -1,33 +1,13 @@
-Thankfully the latest version of Ubuntu has a recent enough version of GNURadio for our purposes (3.6.1 at the time of this writing). The following steps will detail how to get a working GNURadio setup for receiving Sprite signals. I started with a fresh install of [Ubuntu](http://www.ubuntu.com/download/desktop), but any Ubuntu-based distro (Kubunut, Xubuntu, Mint, etc.) should work just fine.
+I've written a script that should handle installing GNURadio, the RTL-SDR and Funcube drivers for the USB receiver dongles, and the Sprite receiver blocks, on a recent installation of Ubuntu (or one of the many other distributions based on Ubuntu). It's been tested on fresh installs of 32 and 64 bit Ubuntu 13.04. Here's what to do:
 
-## Install Prerequisites
-Open a terminal, copy and paste, then run the following command:
-```
-sudo apt-get install gnuradio gnuradio-dev cmake git libboost-all-dev libusb-1.0-0 libusb-1.0-0-dev libfftw3-dev swig python-numpy
-```
-You'll be asked to enter your administrator password and told about some additional packages that will be installed to cover dependencies. Hit enter and wait a few minutes while the necessary packages are downloaded and installed.
-## Install RTL-SDR Driver
-Once you've installed the prerequisite packages, it's time to install the driver that allows us to use the USB radio dongle. The following command will download and install the latest RTL-SDR driver:
-```
-cd ~ && git clone --progress git://git.osmocom.org/rtl-sdr.git && cd rtl-sdr && mkdir build && cd build && cmake .. -DINSTALL_UDEV_RULES=ON && make && sudo make install
-```
+#### 1. Download Install Script
+[Grab the script here](https://raw.github.com/zacinaction/kicksat/master/GroundStation/GNURadio/Install-SpriteRadio) and save it somewhere convenient (e.g. your home folder).
 
-## Install RTL-SDR GNURadio Block
-This will install a block in GNURadio companion allowing you to use the RTL-SDR driver from GNURadio's GUI editor. Copy and paste, then execute the following in your terminal:
-```
-cd ~ && git clone --progress git://git.osmocom.org/gr-osmosdr && cd gr-osmosdr && mkdir build && cd build && cmake .. && make && sudo make install
-```
+#### 2. Make The Script Executable
+This can be done from the terminal or the GUI. To use the GUI, right click on the file and click "Properties". At the top of the Properties window, click the "Permissions" tab, then check the box next to "Allow executing file as program".
 
-## Install Sprite GNURadio Blocks
-Now were going to install the Sprite reciever blocks for GNURadio. Same drill as before...
-```
-cd ~ && git clone --progress git://github.com/zacinaction/kicksat && cd kicksat/GroundStation/GNURadio/gr-sprite && mkdir build && cd build && cmake .. && make && sudo make install && sudo ldconfig
-```
+#### 3. Run The Script
+Open a terminal, navigate to the folder containing the script, and run it by typing `./Install-SpriteRadio`. You'll have to enter your password and you'll also need to be connected to the internet to download the necessary packages and source code. The install process should take 5-10 minutes.
 
-## Add GNURadio Config File
-The last step is to add a config file telling GNURadio where to look for the new blocks we just installed. The following command will do this for you:
-```
-mkdir ~/.gnuradio && echo -e "[grc]\nlocal_blocks_path=/usr/local/share/gnuradio/grc/blocks" >> ~/.gnuradio/config.conf
-```
-
-### That's it! You should now have a working GNURadio installation.
+#### 4. Run GRC
+If everything goes well, you should now find a program called "GRC" (which stands for GNURadio Companion) in your applications menu. Download the [Sprite receiver file here](https://raw.github.com/zacinaction/kicksat/master/GroundStation/GNURadio/SpriteReceiver.grc), then open it in GRC. If you see a block diagram like the one below (with no missing blocks), that means all the necessary software has been installed.

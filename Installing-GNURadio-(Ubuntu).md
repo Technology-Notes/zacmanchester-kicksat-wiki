@@ -4,7 +4,7 @@ I've written a script that should handle installing GNURadio, the RTL-SDR and Fu
 [Grab the script here](https://raw.github.com/zacinaction/kicksat-groundstation/master/Install-SpriteRadio) and save it somewhere convenient (e.g. your home folder).
 
 #### 2. Make The Script Executable
-This can be done from the terminal or the GUI. From the terminal, execute the command '''chmod +x Install-SpriteRadio'''. To use the GUI, right click on the file and click "Properties". At the top of the Properties window, click the "Permissions" tab, then check the box next to "Allow executing file as program".
+This can be done from the terminal or the GUI. From the terminal, execute the command `chmod +x Install-SpriteRadio`. To use the GUI, right click on the file and click "Properties". At the top of the Properties window, click the "Permissions" tab, then check the box next to "Allow executing file as program".
 
 ![Check Box](https://dl.dropboxusercontent.com/u/19178351/GItHub%20Wiki%20Pictures/GNURadio_CheckBox.png)
 

@@ -9,8 +9,8 @@ To set up a ground station to listen to KickSat and the Sprites, you need 3 thin
 ### LNAs:
 
 * [Down East Microwave L432LNA](http://www.downeastmicrowave.com/PDF/l-lna.PDF)
-* [RFBay LNA-440](http://rfbay.com/LNA/LNA-440.pdf)
 * [Advanced Receiver P432VDG](http://www.advancedreceiver.com/page5.html)
+* [RFBay LNA-440](http://rfbay.com/LNA/LNA-440.pdf)
 * [dg0ve LNA70-1](http://www.dg0ve.de/en/lna70_en.htm)
 
 ### SDRs:

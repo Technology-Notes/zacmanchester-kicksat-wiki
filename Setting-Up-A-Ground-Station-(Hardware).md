@@ -4,7 +4,7 @@ To set up a ground station to listen to KickSat and the Sprites, you need 3 thin
 
 ### Antennas:
 
-* [Arrow Antenna 440-5](http://arrowantennas.com/arrowii/440-5ii.html) (This is the one to get if you're in the U.S.)
+* [Arrow Antenna 440-5](http://arrowantennas.com/arrowii/440-5ii.html). This is the one I have the most experience with, but any small hand-held Yagi antenna should work.
 
 ### LNAs:
 

@@ -10,3 +10,5 @@ Next, download the [pre-configured KickSat VMWare image](https://dl.dropboxuserc
 
 Once you have the image file downloaded and 7-Zip installed, decompress the image by right clicking and selecting 7-Zip => Extract Here. Decompressing will probably take a few minutes.
 
+### 3. Set Up VMWare
+

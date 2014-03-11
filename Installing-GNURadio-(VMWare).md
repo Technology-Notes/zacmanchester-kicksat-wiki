@@ -10,5 +10,6 @@ Next, download the [pre-configured KickSat VMWare image](https://dl.dropboxuserc
 
 Once you have the image file downloaded and 7-Zip installed, decompress the image by right clicking and selecting 7-Zip => Extract Here. Decompressing will probably take a few minutes.
 
-### 3. Set Up VMWare
+### 3. Run VMWare
 
+After decompressing, you should see a folder called "KickSatVM" with two files inside ("KickSat.vmx" and "KickSat.vmdk"). Double click either one of the files (it doesn't matter) and VMWare Player should start up boot the virtual machine.

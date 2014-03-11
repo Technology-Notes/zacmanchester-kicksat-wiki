@@ -1,7 +1,7 @@
 I've written a script that should handle installing GNURadio, the RTL-SDR and Funcube drivers for the USB receiver dongles, and the Sprite receiver blocks, on a recent installation of [Ubuntu](http://www.ubuntu.com/) (or [Linux Mint](http://linuxmint.com/)). It's been tested on fresh installs of 64 bit [Ubuntu 13.10 and Linux Mint 16](http://www.ubuntu.com/download/desktop). Here's what to do:
 
 #### 1. Download Install Script
-[Grab the script here](https://raw.github.com/zacinaction/kicksat-groundstation/master/Install-SpriteRadio) (right click the link and save as) and save it somewhere convenient (e.g. your home folder).
+[Grab the script here](https://raw.github.com/zacinaction/kicksat-groundstation/master/Install-SpriteRadio). Right click the link and "Save As" somewhere convenient (e.g. your home folder).
 
 #### 2. Make The Script Executable
 This can be done from the terminal or the GUI. From the terminal, execute the command `chmod +x Install-SpriteRadio`. To use the GUI, right click on the file and click "Properties". At the top of the Properties window, click the "Permissions" tab, then check the box next to "Allow executing file as program".

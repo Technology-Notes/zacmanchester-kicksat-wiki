@@ -6,7 +6,7 @@ First, download and install the free [VMWare Player](https://my.vmware.com/web/v
 
 ### 2. Download The KickSat Virtual Machine Image
 
-Next, download the [pre-configured KickSat VMWare image](https://dl.dropboxusercontent.com/u/19178351/KickSatVM.7z). Right click the link and "Save As" somewhere convenient. The image file is compressed with 7-Zip to make the download go faster. If you don't already have a program to decompress it, [download and install 7-Zip](http://www.7-zip.org/).
+Next, download the [pre-configured KickSat VMWare image](http://s3.amazonaws.com/KickSat/KickSatVM.7z). Right click the link and "Save As" somewhere convenient. The image file is compressed with 7-Zip to make the download go faster. If you don't already have a program to decompress it, [download and install 7-Zip](http://www.7-zip.org/).
 
 Once you have the image file downloaded and 7-Zip installed, decompress the image by right clicking and selecting 7-Zip => Extract Here. Decompressing will probably take a few minutes.
 

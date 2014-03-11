@@ -13,3 +13,8 @@ Once you have the image file downloaded and 7-Zip installed, decompress the imag
 ### 3. Run VMWare
 
 After decompressing, you should see a folder called "KickSatVM" with two files inside ("KickSat.vmx" and "KickSat.vmdk"). Double click "KickSat.vmx" and VMWare Player should start up and boot the virtual machine. If asked weather the virtual machine was moved or copied, select copied. If asked to download and install guest additions, you can skip it - they're already installed.
+
+### 4. Log In
+
+The password to log into the virtual machine is "kicksat" (all lowercase). If all goes well you should see a desktop like the following:
+

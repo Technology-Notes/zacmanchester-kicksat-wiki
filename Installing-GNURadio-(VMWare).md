@@ -20,4 +20,4 @@ The password to log into the virtual machine is "kicksat" (all lowercase). If al
 
 ![VMWare Running](https://dl.dropboxusercontent.com/u/19178351/GItHub%20Wiki%20Pictures/RadioVM.jpg)
 
-You can drag the bottom right corner of the VMWare window to make the desktop bigger.
+You can make VMWare run full-screen or drag the bottom right corner of the VMWare window to make the desktop bigger.

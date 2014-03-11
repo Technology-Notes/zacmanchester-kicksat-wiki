@@ -12,4 +12,4 @@ Once you have the image file downloaded and 7-Zip installed, decompress the imag
 
 ### 3. Run VMWare
 
-After decompressing, you should see a folder called "KickSatVM" with two files inside ("KickSat.vmx" and "KickSat.vmdk"). Double click either one of the files (it doesn't matter) and VMWare Player should start up boot the virtual machine.
+After decompressing, you should see a folder called "KickSatVM" with two files inside ("KickSat.vmx" and "KickSat.vmdk"). Double click either one of the files (it doesn't matter) and VMWare Player should start up and boot the virtual machine.

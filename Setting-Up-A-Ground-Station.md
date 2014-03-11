@@ -32,4 +32,4 @@ You'll need to have GNURadio installed to run the Sprite receiver. I've tried re
 
 The best solution is to install GNURadio natively on your system. If you have the latest Ubuntu Linux (13.10 as of this writing), this is pretty painless - just follow the [instruction elsewhere on this wiki](https://github.com/zacinaction/kicksat/wiki/Installing-GNURadio-(Ubuntu)).
 
-If you are unable to install Ubuntu, then you can run the radio stuff inside a virtual machine on Windows or MacOS X. This way is easier, but does not perform as well as a native installation. Here are instructions for using my pre-built VMWare image on Windows.
+If you are unable to install Ubuntu, then you can run the radio stuff inside a virtual machine on Windows or MacOS X. This easy to set up, but does not perform as well as a native installation. Here are instructions for using my pre-built VMWare image on Windows.

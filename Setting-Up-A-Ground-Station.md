@@ -25,3 +25,9 @@ To set up a ground station to listen to KickSat and/or the Sprites, you need 3 t
 * [BNC Cables](http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Delectronics&field-keywords=BNC%20RG58). You'll want a couple of these. Make sure they're 50 Ohms (RG58 cable will work).
 
 ## Putting it Together:
+
+### Software:
+
+You'll need to have GNURadio installed to run the Sprite receiver. I've tried recording .wav files with several other SDR programs (SDR#, HDSDR) and demodulating them later with GNURadio with limited success. It seems most Ham radio SDR programs are optimized for audio and do some unpredictable things when not used in their intended application. If you want to record .wav files, please use GNURadio as it is known to work reliably.
+
+The best solution is to install GNURadio natively on your system. If you have the latest Ubuntu Linux (13.10 as of this writing), this is pretty painless - just follow the [instruction elsewhere on this wiki](https://github.com/zacinaction/kicksat/wiki/Installing-GNURadio-(Ubuntu)). If you are unable to install Ubuntu, then you can run the radio stuff in a virtual machine on Windows or MacOS X. You'll need to install the free [VMWare Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0) for Windows or [VMWare Fusion](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0) for Mac (not free but has a trial period).

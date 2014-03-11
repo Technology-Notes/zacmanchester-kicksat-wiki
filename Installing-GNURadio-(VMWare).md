@@ -18,3 +18,4 @@ After decompressing, you should see a folder called "KickSatVM" with two files i
 
 The password to log into the virtual machine is "kicksat" (all lowercase). If all goes well you should see a desktop like the following:
 
+![VMWare Running](https://dl.dropboxusercontent.com/u/19178351/GItHub%20Wiki%20Pictures/RadioVM.jpg)

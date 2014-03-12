@@ -9,3 +9,7 @@ One package that Anaconda doesn't include that GNURadio depends on is PyGTK. Aft
 ### 3. Download and Install GNURadio
 
 Now we're ready to install GNURadio. Grab the [Windows binary here](http://files.ettus.com/binaries/gnuradio/gnuradio_v3.7.2.1/gnuradio_3.7.2.1_Win32.exe) and double click.
+
+### 4. Configure PATH
+
+The last thing you have to do is add GNURadio's libraries to your system PATH and PYTHONPATH. Open the control panel and navigate to "System Properties". Under the "Advanced" tab, click the "Environment Variables" button. Under "System variables", click "New" and add a variable called "PYTHONPATH" with the value C:\Program Files (x86)\gnuradio\lib\site-packages.

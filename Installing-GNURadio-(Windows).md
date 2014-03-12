@@ -1,3 +1,5 @@
+### NOTE: These instructions don't include installation of drivers for the RTL dongles, and therefore are not very useful.
+
 ### 1. Download and Install a 32 Bit Version of Python
 
 I recommend the Anaconda Python distribution as it has a nice easy installer and comes with almost everything you need. Just [get it here](http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-1.9.1-Windows-x86.exe) and double click to install.

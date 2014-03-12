@@ -1,4 +1,4 @@
-### NOTE: These instructions don't include installation of drivers for the RTL dongles, and therefore are not very useful.
+**NOTE: These instructions don't include installation of drivers for the RTL dongles, and therefore are not very useful.**
 
 ### 1. Download and Install a 32 Bit Version of Python
 

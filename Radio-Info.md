@@ -8,6 +8,13 @@
 
 The KickSat beacon radio will transmit telemetry packets with information like battery charge state, temperature, and Sprite deployment status. Standard Ham radio equipment and software can be used to receive and decode the beacon packets, e.g. the fantastic [GQRX](http://gqrx.dk/).
 
+Here is a preliminary TLE for KickSat from [CalPoly](http://mstl.atl.calpoly.edu/~ops/keps/kepler.txt). I will continue to update this TLE as the mission progresses.
+```
+KickSat
+1 99902U          14075.40391204  .00012824  00000-0  52953-4 0 00007
+2 99902 052.0530 218.9418 0022324 276.3704 089.6225 15.84668714000014
+```
+
 ### Sprites:
 
 * **Frequency:** 437.240 MHz

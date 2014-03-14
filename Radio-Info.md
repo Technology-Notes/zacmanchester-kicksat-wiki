@@ -1,13 +1,9 @@
 ### KickSat:
 
 * **Frequency:** 437.505 MHz
-
 * **Power:** 1 Watt
-
 * **Modulation:** AFSK
-
 * **Bit Rate:** 1200 bps
-
 * **Packet Format:** AX.25
 
 The KickSat beacon radio will transmit telemetry packets with information like battery charge state, temperature, and Sprite deployment status. Standard Ham radio equipment and software can be used to receive and decode the beacon packets.

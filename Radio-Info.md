@@ -10,7 +10,7 @@
 
 **Packet Format:** AX.25
 
-The KickSat beacon radio will transmit telemetry packets with information like battery charge state, temperature, and Sprite deployment status. Standard Ham radio equipment and software
+The KickSat beacon radio will transmit telemetry packets with information like battery charge state, temperature, and Sprite deployment status. Standard Ham radio equipment and software can be used to receive and decode the beacon packets.
 
 ### Sprites:
 
@@ -28,4 +28,4 @@ The KickSat beacon radio will transmit telemetry packets with information like b
 
 **Packet Format:** Custom
 
-The Sprites will 
+Due to the low power of the Sprite transmitter, some signal processing tricks are used to ensure data can be successfully decoded with low gain antennas. The Sprite receiver is written in C++ for the GNURadio framework and is [available on GitHub](https://github.com/zacinaction/kicksat-groundstation). An automated install script is available [here](https://github.com/zacinaction/kicksat/wiki/Installing-GNURadio-(Ubuntu)).

@@ -6,7 +6,7 @@
 * **Bit Rate:** 1200 bps
 * **Packet Format:** AX.25
 
-The KickSat beacon radio will transmit telemetry packets with information like battery charge state, temperature, and Sprite deployment status. Standard Ham radio equipment and software can be used to receive and decode the beacon packets, e.g. the fantastic [GQRX](http://gqrx.dk/).
+The KickSat beacon radio will transmit telemetry packets with information like battery charge state, temperature, and Sprite deployment status. Packets will be transmitted every 30 seconds when the satellite is powered on and every 250 seconds when it is in charging mode. Standard Ham radio equipment and software can be used to receive and decode the beacon packets, e.g. the fantastic [GQRX](http://gqrx.dk/).
 
 Here is a preliminary TLE for KickSat from [CalPoly](http://mstl.atl.calpoly.edu/~ops/keps/kepler.txt). I will continue to update this TLE as the mission progresses.
 ```

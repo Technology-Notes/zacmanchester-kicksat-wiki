@@ -9,7 +9,7 @@ This can be done from the terminal or the GUI. From the terminal, execute the co
 ![Check Box](https://dl.dropboxusercontent.com/u/19178351/GItHub%20Wiki%20Pictures/GNURadio_CheckBox.png)
 
 #### 3. Run The Script
-Open a terminal, navigate to the folder containing the script, and run it by typing `./Install-SpriteRadio`. You'll need to be connected to the internet to download the necessary packages and source code. The install process will take a while (possibly up to an hour) and you will have to enter your password a few times.
+Open a terminal, navigate to the folder containing the script, and run it by typing `./Install-SpriteRadio`. You'll need to be connected to the internet to download the necessary packages and source code. The install process will take a while (up to an hour) and you will have to enter your password a few times.
 
 ![Terminal](https://dl.dropboxusercontent.com/u/19178351/GItHub%20Wiki%20Pictures/GNURadio_Term.png)
 

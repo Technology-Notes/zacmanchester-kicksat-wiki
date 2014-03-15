@@ -1,5 +1,7 @@
 ### KickSat:
 
+**If you have questions, please ask them on the [KickSat-gs Google Group](https://groups.google.com/forum/#!forum/kicksat-gs)**
+
 * **Frequency:** 437.505 MHz
 * **Power:** 1 Watt
 * **Modulation:** AFSK

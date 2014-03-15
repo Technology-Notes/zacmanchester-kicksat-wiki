@@ -1,4 +1,4 @@
-I've written a script that should handle installing GNURadio, the RTL-SDR and Funcube drivers for the USB receiver dongles, the Sprite receiver blocks, and [GQRX](http://gqrx.dk/), on a recent installation of [Ubuntu](http://www.ubuntu.com/) (or [Linux Mint](http://linuxmint.com/)). It's been tested on fresh installs of 64 bit [Ubuntu 12.04, 13.10, and Linux Mint 16](http://www.ubuntu.com/download/desktop). Here's what to do:
+I've written a script that should handle installing GNURadio, the RTL-SDR and Funcube drivers for the USB receiver dongles, the Sprite receiver blocks, and [GQRX](http://gqrx.dk/), on a recent installation of [Ubuntu](http://www.ubuntu.com/) (or [Linux Mint](http://linuxmint.com/)). It's been tested on fresh installs of 64 bit [Ubuntu 12.04, 13.10](http://www.ubuntu.com/download/desktop), and [Linux Mint 16](http://www.linuxmint.com/download.php). Here's what to do:
 
 #### 1. Download Install Script
 [Grab the script here](https://raw.github.com/zacinaction/kicksat-groundstation/master/Install-SpriteRadio). Right click the link and "Save As" somewhere convenient (e.g. your home folder).

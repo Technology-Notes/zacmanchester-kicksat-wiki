@@ -14,6 +14,6 @@ Open a terminal, navigate to the folder containing the script, and run it by typ
 ![Terminal](https://dl.dropboxusercontent.com/u/19178351/GItHub%20Wiki%20Pictures/GNURadio_Term.png)
 
 #### 4. Run GRC
-If everything goes well, you should now find a program called "GRC" (which stands for GNURadio Companion) in your applications menu. Download the [Sprite receiver file here](https://raw.github.com/zacinaction/kicksat-groundstation/master/Sprite%20Receiver.grc), then open it in GRC. If you see a block diagram like the one below (with no missing blocks), that means all the necessary software has been installed.
+If everything goes well, you should now find a program called "GRC" (which stands for GNURadio Companion) in your applications menu. Download the [Sprite receiver file here](https://raw.githubusercontent.com/zacinaction/kicksat-groundstation/master/SpriteReceiver.grc), then open it in GRC. If you see a block diagram like the one below (with no missing blocks), that means all the necessary software has been installed.
 
 ![GRC](https://dl.dropboxusercontent.com/u/19178351/GItHub%20Wiki%20Pictures/GNURadio_GRC.png)

@@ -13,7 +13,7 @@ The KickSat beacon radio will transmit telemetry packets with information like b
 Here is a preliminary TLE for KickSat from [CalPoly](http://mstl.atl.calpoly.edu/~ops/keps/kepler.txt) (Updated Apr. 16, 2014). I will continue to update this TLE as the mission progresses.
 ```
 KickSat
-1 99902U          14108.86600891  .00000973  00000-0  40213-5 0 00008
+1 99902U          14108.86625197  .00000973  00000-0  40213-5 0 00004
 2 99902 051.6688 055.7184 0022399 282.0950 176.0396 15.84690918000010
 ```
 

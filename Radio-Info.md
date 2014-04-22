@@ -12,9 +12,9 @@ The KickSat beacon radio will transmit telemetry packets with information like b
 
 Here is the best current TLE for KickSat (Updated Apr. 22, 2014). I will continue to update this TLE as the mission progresses.
 ```
-2014-022D               
-1 39683U 14022D   14110.69817810 -.00000800  00000-0  00000+0 0    40
-2 39683  51.6402  24.3259 0017895 260.9928  98.4883 15.85373106   302
+2014-022F               
+1 39685U 14022F   14112.01986474  .00501280  10381-3  17886-2 0   106
+2 39685  51.6541  17.3421 0022823 282.2777  77.5787 15.87864969   504
 ```
 
 ### Sprites:

@@ -10,11 +10,11 @@
 
 The KickSat beacon radio will transmit telemetry packets with information like battery charge state, temperature, and Sprite deployment status. Packets will be transmitted every 30 seconds when the satellite is powered on and every 250 seconds when it is in charging mode. Standard Ham radio equipment and software can be used to receive and decode the beacon packets (e.g. the fantastic [GQRX](http://gqrx.dk/)).
 
-[CelesTrak](http://celestrak.com/NORAD/elements/cubesat.txt) now has KickSat listed in it's catalog, so you should be able to look it up by name in most satellite tracking applications. I will continue to update the TLE below once per day (last updated 4/24/14).
+[CelesTrak](http://celestrak.com/NORAD/elements/cubesat.txt) now has KickSat listed in it's catalog, so you should be able to look it up by name in most satellite tracking applications. I will continue to update the TLE below once per day (last updated 4/27/14).
 ```
 KICKSAT                 
-1 39685U 14022F   14113.90686552  .00462451  91182-4  15147-2 0   146
-2 39685  51.6540   7.4423 0022065 285.8919  73.9565 15.89593576   802
+1 39685U 14022F   14117.04766786  .00463410  94334-4  13190-2 0   215
+2 39685  51.6539 350.9098 0022756 295.5675  64.2911 15.92270127  1300
 ```
 
 ### Sprites:

@@ -1,8 +1,8 @@
-There are a bunch of the code examples for the Sprite development kit available [here](https://github.com/zacinaction/kicksat/tree/master/DevelopmentKit/Energia). Some of them are explained in detail below.
+There are a bunch of the code examples for the Sprite development kit available [here](https://github.com/kicksat/sprite/tree/master/Test_Code). Some of them are explained in detail below.
 
 ## Using the Serial Port for Debugging
 
-One of the most useful things when you're debugging your code is the ability to send data from the microcontroller back to your PC. To do this we'll use the Serial class. Here's a quick example (which you can download [here](https://github.com/zacinaction/kicksat/blob/master/DevelopmentKit/Energia/SerialDemo/SerialDemo.ino)):
+One of the most useful things when you're debugging your code is the ability to send data from the microcontroller back to your PC. To do this we'll use the Serial class. Here's a quick example (which you can download [here](https://github.com/kicksat/sprite/blob/master/Test_Code/SerialDemo/SerialDemo.ino)):
 
 ```
 /*
@@ -33,7 +33,7 @@ After you compile and upload the code onto the Sprite, click the "Serial Monitor
 
 Now we'll try out one of the sensors on the Sprite. The magnetometer is a 3-axis chip from Honeywell called the HMC5883L. It's data sheet is [here](http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Sensors/Magneto/HMC5883L-FDS.pdf).
 
-We're going to read the x, y, and z values from the magnetometer and then write them to the serial port. Fire up Energia and copy and paste the following code (or [download the file here](https://github.com/zacinaction/kicksat/blob/master/DevelopmentKit/Energia/MagnetometerDemo/MagnetometerDemo.ino)).
+We're going to read the x, y, and z values from the magnetometer and then write them to the serial port. Fire up Energia and copy and paste the following code (or [download the file here](https://github.com/kicksat/sprite/blob/master/Test_Code/MagnetometerDemo/MagnetometerDemo.ino)).
 
 ```
 #include <SpriteMag.h>
